@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Array Manipulation and Math Operations | Julia Johnson</title>
+    <link rel="stylesheet" href="math.css">
+</head>
+<body>
+    <header>
+        <nav id="navbar">
+          <div class="container">
+            <h1 class="logo">J&J</h1>
+              <ul>
+                <li><a href="index.html">Word Cloud Generator</a></li>
+                <li><a class="current">Array Manipulation & Math Operations</a></li>
+              </ul>
+          </div>
+        </nav>
+        </div>
+  </header>
+    <div class="container">
+        <h1>Array Manipulation and Math Operations</h1>
+        <form id="arrayForm">
+            <label for="arrayInput">Enter numbers (comma separated):</label>
+            <input type="text" id="arrayInput" placeholder="e.g., 1,2,3,4,5" required>
+            <button type="button" onclick="processArray()">Process Array</button>
+        </form>
+        <div id="results">
+            <h2>Results:</h2>
+            <p id="sortedArray"></p>
+            <p id="reversedArray"></p>
+            <p id="slicedArray"></p>
+            <p id="maxValue"></p>
+            <p id="minValue"></p>
+            <p id="sqrtValue"></p>
+        </div>
+    </div>
+    <script src="math.js"></script>
+</body>
+</html>
